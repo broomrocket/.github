@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Broomrocket Discussions
+    url: https://github.com/orgs/broomrocket/discussions
+    about: Post questions and feedback, or start discussions about relevant topics
+  - name: Something Pink Contact
+    url: https://something.pink/contact/
+    about: Our corporate contact information

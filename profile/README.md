@@ -16,19 +16,23 @@ When we create worlds, we would like to focus on the feeling of experiencing our
 
 ### Broomrocket for Blender
 
-[Broomrocket for Blender](https://github.com/SomethingPinkGmbH/broomrocket-for-blender) is a Blender add-on that lets you run individual or multiple sentences and uses one of these three mesh providers: a default cube, a local folder, or Sketchfab. If you prefer to use Sketchfab, you will need an ongoing internet connection and a Sketchfab API token which you can paste into the add-on UI.
+[Broomrocket for Blender](https://github.com/broomrocket/broomrocket-for-blender) is a Blender add-on that lets you run individual or multiple sentences and uses one of these three mesh providers: a default cube, a local folder, or Sketchfab. If you prefer to use Sketchfab, you will need an ongoing internet connection and a Sketchfab API token which you can paste into the add-on UI.
 
-![A Blender screenshot displaying a muddy ground with a shack on it. The shack has a porch in the front.](https://github.com/SomethingPinkGmbH/broomrocket-for-blender/raw/main/example.jpg)
+![A Blender screenshot displaying a muddy ground with a shack on it. The shack has a porch in the front.](https://github.com/broomrocket/broomrocket-for-blender/raw/main/example.jpg)
 
 ⚠ Broomrocket for Blender uses prepositions in your sentences to figure out where to place your described mesh. If you use a local folder, you will have to name your files the way you talk about them in your sentences. This will likely change in the near future as we introduce metadata.
 
 ### Broomrocket Server
 
-⚠ The [Broomrocket Server](https://github.com/SomethingPinkGmbH/broomrocket-server) is currently a fully experimental socket-based server and will likely be rewritten as we continue to develop more functionality. This first experiment is written specifically to work for the Broomrocket for Godot plugin.
+⚠ The [Broomrocket Server](https://github.com/broomrocket/broomrocket-server) is currently a fully experimental socket-based server and will likely be rewritten as we continue to develop more functionality. This first experiment is written specifically to work for the Broomrocket for Godot plugin.
 
 ### Broomrocket for Godot
 
-⚠ [Broomrocket for Godot](https://github.com/SomethingPinkGmbH/broomrocket-for-godot) is also still fully experimental and serves as a testbed for us to see how we can start porting the initial Broomrocket algorithm to game engines and possibly other 3D tooling.
+⚠ [Broomrocket for Godot](https://github.com/broomrocket/broomrocket-for-godot) is also still fully experimental and serves as a testbed for us to see how we can start porting the initial Broomrocket algorithm to game engines and possibly other 3D tooling.
+
+### Locusloculi
+
+⚠ [Locusloculi](https://github.com/broomrocket/locusloculi) is the place of small places - an NLP library written in Rust that is designed specifically to work with spatial information. This is currently under development and not yet usable.
 
 ---
 
@@ -40,4 +44,4 @@ Right now, **we do not provide any releases or hosted service yet**, but you can
 
 ### Contact
 
-Broomrocket is developed and maintained by [Something Pink](https://github.com/somethingpinkgmbh). You can find our contact information at [something.pink](https://something.pink/contact/). If you prefer to engage with us on GitHub directly, you can participate in [discussions](https://github.com/orgs/somethingpinkgmbh/discussions) or open an issue in the relevant repository.
+Broomrocket is developed and maintained by [Something Pink](https://github.com/somethingpinkgmbh). You can find our contact information at [something.pink](https://something.pink/contact/). If you prefer to engage with us on GitHub directly, you can participate in [discussions](https://github.com/orgs/broomrocket/discussions) or open an issue in the relevant repository.
